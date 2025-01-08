@@ -1,0 +1,100 @@
+html {
+    background-color: rgb(255, 0, 0, 100);
+    background-image: radial-gradient(rgb(255, 255, 0, 100), rgb(255, 0, 0, 100));
+    font-family: Arial, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: rgb(255,255,255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(4,0,26);
+    text-shadow: 1px 1px 2px #fff;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(51,0,0);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.choice {
+    background: rgb(245,245,233);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.choice:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background: rgb(204,238,255);
+}
+
+.choice img {
+    max-width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.choice button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background: rgb(255,0,0);
+    color: rgb(255,255,255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.choice button:hover {
+    background: rgb(204,0,0);
+}
+
+.back-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    padding: 10px 20px;
+    background: rgb(0, 122, 255);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.back-button:hover {
+    background: rgb(0, 102, 204);
+}

@@ -1,0 +1,115 @@
+html {
+    background-color: rgb(255, 0, 0, 100);
+    background-image: radial-gradient(rgb(255, 255, 0, 100), rgb(255, 0, 0, 100));
+}
+
+body {
+    position:relative;
+    border-radius:8px;
+    box-shadow:black 0px 0px 2px;
+    width: 1200px;
+    background: darkred;
+    margin:5px auto;
+    border:solid 1px black;
+    font-family: arial, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#loginDiv {
+    width: 300px;
+    height: 125px;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loginDiv p {
+    visibility: hidden;
+    margin-top: 10px;
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+#loginDiv p.visible {
+    visibility: visible;
+    margin-top: 10px;
+    color: red;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+#buttons {
+    text-align:center;
+}
+
+a img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
+/*#customise {*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*    margin: 10px auto;*/
+/*    position: fixed;*/
+/*    bottom: 10px;*/
+/*    right: 10px;*/
+/*}*/
+
+button {
+    height:30px;
+    width:100px;
+    margin:8px auto;
+}
+img.preload {
+    display:none;
+}
+h1 {
+    font-size:60px;
+    text-align:center;
+    padding:0px;
+    margin:10px auto;
+    text-shadow: 2px 0 #FFFFFF, -2px 0 #FFFFFF, 0 2px #FFFFFF, 0 -2px #FFFFFF;
+}
+
+#card-table {
+    background-color:green;
+    height:900px;
+    width:100%;
+    border:solid 6px brown;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+    box-shadow:#111 1px 1px 2px;
+    align-content: center;
+    text-align: center;
+    position: relative;
+
+}
+
+a:visited {color:blue;}
+
+footer {
+    font-size : 12px;
+    color:white;
+    margin:10px;
+}
+
+footer a, footer a:visited{
+    color:white;
+}
+
+footer a:hover {
+    color:black;
+}

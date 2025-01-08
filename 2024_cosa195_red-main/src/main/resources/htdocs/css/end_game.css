@@ -1,0 +1,98 @@
+html {
+    background-color: rgb(255, 0, 0, 100);
+    background-image: radial-gradient(rgb(255, 255, 0, 100), rgb(255, 0, 0, 100));
+}
+
+body {
+    position:relative;
+    border-radius:8px;
+    box-shadow:black 0px 0px 2px;
+    width: 1200px;
+    background: darkred;
+    margin:5px auto;
+    border:solid 1px black;
+    font-family: arial, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1 {
+    font-size:60px;
+    text-align:center;
+    padding:0px;
+    margin:10px auto;
+    text-shadow: 2px 0 #FFFFFF, -2px 0 #FFFFFF, 0 2px #FFFFFF, 0 -2px #FFFFFF;
+}
+
+#card-table {
+    background-color:green;
+    height:900px;
+    width:100%;
+    border:solid 6px brown;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+    box-shadow:#111 1px 1px 2px;
+    align-content: center;
+    text-align: center;
+    position: relative;
+
+}
+
+a:visited {color:blue;}
+
+footer {
+    font-size : 12px;
+    color:white;
+    margin:10px;
+}
+
+footer a, footer a:visited{
+    color:white;
+}
+
+footer a:hover {
+    color:black;
+}
+
+#congrats_div {
+    background-color: red;
+    border-radius: 10px;
+    height: 40%;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#congrats_div h2 {
+    font-size: 2em;
+    color: rgb(255, 255, 0);
+    text-shadow: #ffffff 1px 1px, #ffffff -1px -1px, #000000 -2px -2px, #000000 2px 2px, #000000 3px 3px, #000000 4px 4px;
+    font-weight: bold;
+}
+
+#congrats_div p {
+    font-size: 1.5em;
+}
+
+#play_again {
+    padding: 10px 20px;
+    background: rgb(0, 122, 255);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#play_again:hover {
+    background: rgb(0, 102, 204);
+}

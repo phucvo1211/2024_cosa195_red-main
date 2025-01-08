@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>cards.js - Example</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/game.css"/>
+    <script src="javascript/jquery-1.7.min.js"></script>
+</head>
+<body>
+<h1>UNO</h1>
+<img class="preload" src="images/cards.png" />
+<img class="preload" src="images/circular-arrows-reversed.png" />
+<img class="preload" src="images/circular-arrows.png" />
+
+<img class="preload" src="images/unoCard1.png" />
+<img class="preload" src="images/unoCard2.png" />
+<img class="preload" src="images/unoCard3.png" />
+
+<img class="preload" src="images/ptsd.jpg" />
+<img class="preload" src="images/homer.png" />
+<img class="preload" src="images/bananaMan.png" />
+
+<div id="card-table">
+    <button id="deal" style="display: none;">START GAME</button>
+    <button id="uno" style="display: none;"><span>UNO</span></button>
+    <button id="endturn" style="display: none;">END TURN</button>
+</div>
+<!--    <img id="playOrderImage" src="images/circular-arrows.png"/>-->
+<footer>
+
+</footer>
+<!-- load this at the bottom so the #card-table element exists -->
+<script src="javascript/deckType.js"></script>
+<script src="javascript/cards.js"></script>
+<script type= module src="javascript/game.js"></script>
+</body>
+</html>
